@@ -1,4 +1,4 @@
-    user_tuple = (10, 20, 30, 40, 50)  # تاپل موردنظر خود را وارد کنید
+import time
 yesorno = input("print yes or no:")
 if yesorno == "yes":    
     while True:
@@ -24,6 +24,6 @@ elif yesorno=="no":
     time.sleep(3)
     exit()
 else:
-    print
+    print("error")
 
 
