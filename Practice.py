@@ -1,9 +1,9 @@
 while True:
     user_tuple = (10, 20, 30, 40, 50)  # تاپل موردنظر خود را وارد کنید
 
-    print("Tuple mojod:", user_tuple) 
+    print("Tuple mojod: ", user_tuple) 
 
-    index = int(input("lotfan yek index vared konid:"))
+    index = int(input("lotfan yek index vared konid: "))
     len_tuple = len(user_tuple)
     if 0 <= index < len(user_tuple):
         selected_item = user_tuple[index]
