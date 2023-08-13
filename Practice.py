@@ -25,5 +25,3 @@ elif yesorno=="no":
     exit()
 else:
     print("error")
-
-
